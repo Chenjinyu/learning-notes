@@ -168,4 +168,17 @@ You can use `pyenv` to **lock the Python version** for a specific project with t
 
 This approach gives you both version control for Python (using `pyenv`) and isolated environments for each project (using `python -m venv`). It's a great way to manage multiple projects with different Python versions and dependencies!
 
-Let me know if you need further help!
+
+
+
+
+## Deactivate
+1. using `pyenv deactivate` your virtualenv, 
+2. If you still see the environment name in your prompt, manually clear it: 
+```sh
+unset VIRTUAL_ENV
+```
+3. Sometimes the shell keeps the virtual environment active. Reset it using:
+```sh
+exec $SHELL -l # Force Deactivation (Reset Shell)
+```
