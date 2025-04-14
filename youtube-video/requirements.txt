@@ -3,3 +3,8 @@ selenium
 webdriver-manager
 beautifulsoup4
 lxml
+yt-dlp
+pandas
+requests
+pytube
+ffmpeg
