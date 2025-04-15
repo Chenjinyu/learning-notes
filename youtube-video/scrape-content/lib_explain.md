@@ -1,4 +1,0 @@
-### pytube
-pytube is a genuine, lightweight, dependency-free Python library (and command-line utility) for downloading YouTube videos.
-
-### ffmpeg
